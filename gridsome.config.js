@@ -13,6 +13,16 @@ if (process.env.NODE_ENV === "production")
 
 module.exports = {
   siteName: "François D.",
+  transformers: {
+    remark: {
+      externalLinksTarget: "_blank",
+      externalLinksRel: ["nofollow", "noopener", "noreferrer"],
+      anchorClassName: "icon icon-link",
+      plugins: [
+        // ...global plugins
+      ]
+    }
+  },
   css: {
     loaderOptions: {
       postcss: {
@@ -32,5 +42,5 @@ module.exports = {
       }
     }
   ],
-  siteUrl: "https://www.francoisd.fr"
+  siteUrl: "https://francoisd.fr"
 };
