@@ -520,7 +520,7 @@
                   <p class="mb-6 text-gray-500 leading-loose">
                     Créé à l'automne 2020 par Shadia et Ludovic, Organic Therapy
                     propose déjà plus d'une demi-douzaine de recettes 100%
-                    naturelles & originales conçue pour pour chaque moment de la
+                    naturelles & originales conçue pour chaque moment de la
                     journée.
                   </p>
                 </div>
