@@ -127,8 +127,8 @@
                     Data scraping
                   </h3>
                   <p class="text-blueGray-400 leading-loose">
-                    G&eacute;n&eacute;ration de bases de donn&eacute;es. (pour
-                    prospection, veille concurentielle, etc...)
+                    G&eacute;n&eacute;ration de bases de donn&eacute;es.
+                    (prospection, veille concurrentielle, etc...)
                   </p>
                 </div>
               </div>
