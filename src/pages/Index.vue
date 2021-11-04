@@ -132,33 +132,7 @@
                   </p>
                 </div>
               </div>
-              <div class="flex items-start py-4">
-                <div class="w-8 mr-5 text-blue-500">
-                  <svg
-                    class="w-8 h-8"
-                    fill="none"
-                    stroke="currentColor"
-                    viewbox="0 0 24 24"
-                    xmlns="http://www.w3.org/2000/svg"
-                  >
-                    <path
-                      stroke-linecap="round"
-                      stroke-linejoin="round"
-                      stroke-width="2"
-                      d="M4 5a1 1 0 011-1h14a1 1 0 011 1v2a1 1 0 01-1 1H5a1 1 0 01-1-1V5zM4 13a1 1 0 011-1h6a1 1 0 011 1v6a1 1 0 01-1 1H5a1 1 0 01-1-1v-6zM16 13a1 1 0 011-1h2a1 1 0 011 1v6a1 1 0 01-1 1h-2a1 1 0 01-1-1v-6z"
-                    ></path>
-                  </svg>
-                </div>
-                <div>
-                  <h3 class="mb-2 text-xl font-semibold font-heading">
-                    D&eacute;veloppement Web
-                  </h3>
-                  <p class="text-blueGray-400 leading-loose">
-                    Cr&eacute;ation de sites et d'applications web
-                    optimis&eacute;s SEO, sur mesure et responsive.
-                  </p>
-                </div>
-              </div>
+
               <div class="flex items-start py-4">
                 <div class="w-8 mr-5 text-blue-500">
                   <svg
@@ -460,21 +434,21 @@
                 <li>
                   <button
                     class="text-2xl lg:text-4xl mb-4 text-gray-400 hover:text-gray-900 font-bold focus:outline-none"
-                    @click.prevent="setActive('organic')"
-                    :class="{ 'text-gray-900': isActive('organic') }"
-                    href="#organic"
-                  >
-                    Organic Therapy
-                  </button>
-                </li>
-                <li>
-                  <button
-                    class="text-2xl lg:text-4xl mb-4 text-gray-400 hover:text-gray-900 font-bold focus:outline-none"
                     @click.prevent="setActive('humind')"
                     :class="{ 'text-gray-900': isActive('humind') }"
                     href="#humind"
                   >
                     Humind School
+                  </button>
+                </li>
+                <li>
+                  <button
+                    class="text-2xl lg:text-4xl mb-4 text-gray-400 hover:text-gray-900 font-bold focus:outline-none"
+                    @click.prevent="setActive('organic')"
+                    :class="{ 'text-gray-900': isActive('organic') }"
+                    href="#organic"
+                  >
+                    Organic Therapy
                   </button>
                 </li>
               </ul>
@@ -634,7 +608,6 @@
                 <option value="" selected>-- Selectionnez un service --</option>
                 <option value="Automatisation">Automatisation</option>
                 <option value="Data scraping">Data scraping</option>
-                <option value="Développement Web">Développement Web</option>
               </select>
             </div>
           </div>
@@ -666,7 +639,7 @@
 <script>
 export default {
   metaInfo: {
-    titleTemplate: "%s Développeur Web."
+    titleTemplate: "%s Sales Dev."
   },
   data() {
     return {
@@ -678,7 +651,7 @@ export default {
       button: {
         text: "Envoyer le message!"
       },
-      activeItem: "organic"
+      activeItem: "humind"
     };
   },
   methods: {

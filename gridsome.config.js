@@ -40,7 +40,34 @@ module.exports = {
         shouldImport: false,
         shouldTimeTravel: false
       }
+    },
+    {
+      use: "gridsome-source-google-sheets-v2",
+      options: {
+        apiKey: process.env.GOOGLE_API_KEY,
+        spreadsheets: [
+          {
+            spreadsheetId: process.env.SPREADSHEET_ID,
+            sheets: [
+              {
+                sheetName: process.env.SHEET_NAME, // Example: "Sheet1"
+                collectionName: process.env.COLLECTION_NAME // Example: "Users" (Must be unique)
+              }
+            ]
+          }
+        ]
+      }
     }
   ],
-  siteUrl: "https://francoisd.fr"
+  siteUrl: "https://francoisd.fr",
+  templates: {
+    leads: [
+      {
+        path: node => {
+          return "/Workshop-x-Humind-School/" + node.submissionId;
+        },
+        component: "./src/templates/leads.vue"
+      }
+    ]
+  }
 };

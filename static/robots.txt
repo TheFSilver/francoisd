@@ -1,0 +1,5 @@
+User-agent: *
+Disallow: /Workshop-x-Humind-School/
+Disallow: /*.pdf
+
+# Passe ton chemin. Il n'y a rien à voir ici!
