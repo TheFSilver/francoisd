@@ -90,10 +90,7 @@
           <div class="flex flex-wrap items-center -mx-4">
             <div class="w-full px-4">
               <div class="flex justify-center items-center">
-                <div
-                  class="sm:px-6 mr-3 rounded-lg px-2 py-6 md:py-8"
-                  style="backgroundColor:#1E1E22;"
-                >
+                <div class="sm:px-6 mr-3 rounded-lg logos_bg px-2 py-6 md:py-8">
                   <g-image
                     class="mx-auto h-12 md:h-16"
                     src="https://theme.zdassets.com/theme_assets/9331069/1a91b2a9ce53db90ed71f9a40e265e64e8b84407.png"
@@ -103,8 +100,7 @@
 
                 <div class="flex flex-col mr-3">
                   <div
-                    class="inline-block ml-auto py-12 px-4 sm:px-8 mb-3 rounded-lg"
-                    style="backgroundColor:#1E1E22;"
+                    class="inline-block ml-auto py-12 px-4 sm:px-8 mb-3 rounded-lg logos_bg"
                   >
                     <g-image
                       class="h-14 mx-auto"
@@ -113,10 +109,7 @@
                     />
                   </div>
 
-                  <div
-                    class="py-16 px-2 sm:px-12 rounded-lg"
-                    style="backgroundColor:#1E1E22;"
-                  >
+                  <div class="py-16 px-2 sm:px-12 rounded-lg logos_bg">
                     <g-image
                       class="mx-auto h-8"
                       src="https://images.squarespace-cdn.com/content/v1/5acc7a9f2487fdb8c2b76b94/1556546489414-YWJ6TJ036CR49L0597ZJ/humindschool222.png?format=1500w"
@@ -125,10 +118,7 @@
                   </div>
                 </div>
                 <div class="-mb-32">
-                  <div
-                    class="py-8 parabola mb-3 rounded-lg"
-                    style="backgroundColor:#1E1E22;"
-                  >
+                  <div class="py-8 parabola mb-3 rounded-lg logos_bg">
                     <g-image
                       class="h-6 mx-auto"
                       src="https://lever-client-logos.s3-us-west-2.amazonaws.com/7e588d63-4cc2-41e6-a501-9d6c477ee8bc-1596570412492.png"
@@ -137,8 +127,7 @@
                   </div>
 
                   <div
-                    class="inline-block py-14 px-2 sm:px-8 rounded-lg"
-                    style="backgroundColor:#1E1E22;"
+                    class="inline-block py-14 px-2 sm:px-8 rounded-lg logos_bg"
                   >
                     <g-image
                       class="h-8 mx-auto"

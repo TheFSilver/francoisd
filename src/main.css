@@ -12,6 +12,10 @@
   background-color: #1739c4;
 }
 
+.logos_bg {
+  background-color: #1e1e22;
+}
+
 @media (max-width: 640px) {
   .parabola {
     padding-right: 0.5rem;
