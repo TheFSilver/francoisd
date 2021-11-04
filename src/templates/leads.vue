@@ -85,7 +85,9 @@
         </div>
       </section>
 
-      <section class="pt-20 overflow-hidden bg-black pb-20">
+      <section
+        class="pt-20 overflow-hidden bg-black pb-20 md:block lg:block xl:block 2xl:block hidden"
+      >
         <div class="container px-4 mx-auto">
           <div class="flex flex-wrap items-center -mx-4">
             <div class="w-full px-4">
