@@ -142,10 +142,12 @@
     <slot />
     <footer class="p-4 bg-gray-900 text-white">
       <div class="flex flex-col lg:flex-row items-center">
-        <div class="w-full lg:w-auto lg:mr-auto text-center lg:text-left">
+        <div class="whitespace-nowrap lg:w-auto lg:mr-auto text-center lg:text-left">
           © 2020 François D. 
         </div>
-
+        <div class="w-full text-center mt-4 lg:mt-0">
+          <g-link to="/politique-de-confidentialite/" class="text-white">Politique de confidentialité</g-link>
+        </div>
         <div class="flex justify-center items-center space-x-6 mt-4 lg:mt-0">
           <a
             href="https://www.linkedin.com/in/francois-dasylva/"
