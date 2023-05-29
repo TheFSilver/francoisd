@@ -143,7 +143,7 @@
     <footer class="p-4 bg-gray-900 text-white">
       <div class="flex flex-col lg:flex-row items-center">
         <div class="w-full lg:w-auto lg:mr-auto text-center lg:text-left">
-          © 2020 François D.
+          © 2020 François D. 
         </div>
         <div class="text-center mt-4 lg:mt-0">
           <router-link to="/PrivacyPolicy" class="text-white">Politique de confidentialité</router-link>
